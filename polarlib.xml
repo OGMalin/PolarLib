@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="library" method="upgrade" version="3.2">
+	<name>Polarlib - Library</name>
+	<libraryname>polarlib</libraryname>
+	<author>Odd Gunnar Malin</author>
+	<authorEmail>oddg@sjakk.biz</authorEmail>
+	<authorUrl>polarchess.net</authorUrl>
+	<copyright>Copyright (C) 2015. All rights reserved.</copyright>
+	<creationDate>May 2015</creationDate>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<version>1.0.0</version>
+	<description>Chess library for Joomla!</description>
+	<files>
+		<filename>library.php</filename>
+	</files>
+
+	<media destination="polarlib" folder="media">
+		<folder>css</folder>
+		<folder>img</folder>
+		<folder>js</folder>
+	</media>
+
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.lib_polarlib.ini</language>
+		<language tag="nb-NO">nb-NO/nb-NO.lib_polarlib.ini</language>
+	</languages>
+</extension>
