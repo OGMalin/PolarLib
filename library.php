@@ -11,4 +11,4 @@ defined('_JEXEC') or die;
 
 JLoader::setup();
 
-JLoader::registerPrefix('Polar', dirname(__FILE__));
+JLoader::registerPrefix('Polar', JPATH_LIBRARIES . '/polarlib');

@@ -11,6 +11,7 @@
 	<version>1.0.0</version>
 	<description>Chess library for Joomla!</description>
 	<files>
+		<folder>tournament</folder>
 		<filename>library.php</filename>
 	</files>
 
